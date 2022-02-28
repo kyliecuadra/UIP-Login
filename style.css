@@ -45,7 +45,10 @@ body{
 }
 
 /*MEDIA QUERIES*/
-@media all and (max-width: 766px){
+@media all and (max-width: 1080px){
+	body{
+		background-size: 200%;
+	}
 	.navbar-brand{
 		position: absolute;
 		margin-top: 40px;
@@ -81,7 +84,91 @@ body{
 	}
 }
 
-@media all and (max-width: 575px){
+@media all and (max-width: 900px){
+	body{
+		background-size: 180%;
+	}
+	.navbar-brand{
+		position: absolute;
+		margin-top: 40px;
+	}
+
+	a:nth-child(2){
+		margin-left: 50px;
+	}
+
+	a:nth-child(3){
+		margin-left: 100px;
+	}
+
+	.nav-icon img{
+		height: 40px;
+		width: auto;
+	}
+
+	.login{
+		display: flex;
+		justify-content: center;
+	}
+
+	.login .login-form header{
+		font-size: 14px;
+		margin-bottom: 10px;
+	}
+
+	.login .login-form,
+	.login .login-form input,
+	.login .login-form button{
+		font-size: 10px;
+	}
+}
+
+@media all and (max-width: 766px),
+orientation(portrait){
+		body{
+		background-size: 400%;
+	}
+	.navbar-brand{
+		position: absolute;
+		margin-top: 40px;
+	}
+
+	a:nth-child(2){
+		margin-left: 50px;
+	}
+
+	a:nth-child(3){
+		margin-left: 100px;
+	}
+
+	.nav-icon img{
+		height: 40px;
+		width: auto;
+	}
+
+	.login{
+		display: flex;
+		justify-content: center;
+	}
+
+	.login .login-form header{
+		font-size: 14px;
+		margin-bottom: 10px;
+	}
+
+	.login .login-form,
+	.login .login-form input,
+	.login .login-form button{
+		font-size: 10px;
+	}
+}
+
+@media all and (max-width: 575px),
+orientation(portrait){
+	body{
+		background-size: 400%;
+	}
+
 	.navbar-brand{
 		position: absolute;
 		margin-top: 40px;
@@ -121,18 +208,23 @@ body{
 	}
 }
 
-@media all and (max-width: 475px){
+@media all and (max-width: 475px),
+orientation(portrait){
+	body{
+		background-size: 400%;
+	}
+
 	.navbar-brand{
 		position: absolute;
 		margin-top: 40px;
 	}
 
 	a:nth-child(2){
-		margin-left: 30px;
+		margin-left: 35px;
 	}
 
 	a:nth-child(3){
-		margin-left: 55px;
+		margin-left: 65px;
 	}
 
 	.nav-icon img{
