@@ -121,6 +121,46 @@ body{
 	}
 }
 
+@media all and (max-width: 475px){
+	.navbar-brand{
+		position: absolute;
+		margin-top: 40px;
+	}
+
+	a:nth-child(2){
+		margin-left: 30px;
+	}
+
+	a:nth-child(3){
+		margin-left: 55px;
+	}
+
+	.nav-icon img{
+		height: 25px;
+		width: auto;
+	}
+
+	.login{
+		display: flex;
+		justify-content: center;
+	}
+
+	.login .card{
+		width: 70%;
+	}
+
+	.login .login-form header{
+		font-size: 14px;
+		margin-bottom: 10px;
+	}
+
+	.login .login-form,
+	.login .login-form input,
+	.login .login-form button{
+		font-size: 10px;
+	}
+}
+
 @media all and (max-width: 350px){
 	.navbar-brand{
 		position: absolute;
